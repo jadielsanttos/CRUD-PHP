@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form h2 {
+    color: black;
+    text-align: center;
+}
+
+#single {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#single form {
+    padding: 50px;
+}
+
+#single form a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#single form a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 600px) {
+    #single {
+        width: 400px;
+    }
+}

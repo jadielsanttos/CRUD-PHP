@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+#single-div {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.table {
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+
+.editar {
+    background-color: #0d6efd;
+    color: white;
+    width: 50px;
+    border: none;
+    border-radius: 2px;
+}
+
+.excluir {
+    background-color: rgb(219, 42, 42);
+    color: white;
+    width: 50px;
+    border: none;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    #single-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .excluir {
+        margin-top: 5px;
+    }
+ 
+}
